@@ -9,9 +9,10 @@ const Team = () => {
     });
 
     return (
-        <main>
-            <div className="h-screen text-white pt-24">
-                <div className="flex flex-wrap gap-3 justify-center">
+        <main className="min-h-screen bg-gray-950">
+            <div className="text-white pt-24 px-8">
+                <h1 className="text-3xl font-bold text-center mb-8">Our Team</h1>
+                <div className="max-w-7xl mx-auto flex flex-wrap gap-6 justify-center">
                     {TEAM_MEMBERS.map((member) => (
                         <TeamMember
                             key={member.name}
