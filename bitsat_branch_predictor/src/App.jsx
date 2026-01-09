@@ -4,13 +4,8 @@ import Header from "./Header.jsx";
 import Footer from "./Footer.jsx";
 import About from "./About.jsx";
 import Home from "./Home.jsx";
+import Working from "./Working.jsx"
 
-
-function Working() {
-	return (
-		<div className="mt-20 text-center text-xl"> </div>
-  	);
-}
 
 function App() {
   return (
